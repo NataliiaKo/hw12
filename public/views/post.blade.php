@@ -1,4 +1,4 @@
-<!--@ todo Шаблон отдельного поста-->
+<!-- Шаблон отдельного поста-->
 @extends ('layout')
 @section('content')
     <!-- ##### Breadcrumb Area Start ##### -->

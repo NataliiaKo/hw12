@@ -1,5 +1,5 @@
 
-{{--@todo Шаблон списка постов--}}
+{{-- Шаблон списка постов--}}
 @extends ('layout')
 @section('content')
     <!-- ##### Breadcrumb Area Start ##### -->
