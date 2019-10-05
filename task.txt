@@ -1,0 +1,16 @@
+Домашнее задание 12     Blade: работа с шаблонизатором
+
+Опираясь на файлы из архива foode.zip (archive-blog.html и single-post.html):
+
+    Выделить базовый шаблон layout.blade.php
+    Шаблон списка постов blog.blade.php
+    Шаблон отдельного поста post.blog.php
+
+
+    Создать две страницы:
+
+        blog.php: вывести шаблон blog.blade.php
+        post.php: вывести шаблон post.blade.php
+
+
+    Шаблоны blog.blade.php и post.blade.php должны наследовать базовый шаблон layout.blade.php

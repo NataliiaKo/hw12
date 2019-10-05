@@ -7,7 +7,7 @@ $fileViewFinder= new \Illuminate\View\FileViewFinder(
     $fileSystem, ['views']
 );
 
-$compiler = new \Illuminate\View\Compilers\BladeCompiler($fileSystem, 'resources\cache');
+$compiler = new \Illuminate\View\Compilers\BladeCompiler($fileSystem, 'resources/cache');
 
 $engineResolver->register('blade',function () use ($compiler) {
     return new \Illuminate\View\Engines\CompilerEngine($compiler);
